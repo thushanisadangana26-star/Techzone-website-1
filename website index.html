@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TechZone Gadget Store</title>
+<nav>
+    <div class="nav-right">
+        <input type="text" placeholder="Search products..." class="search-bar">
+        <button class="logout-btn">Logout</button>
+    </div>
+</nav>
+<div class="navbar">
+    
+    
+    <style>
+        body {
+            font-family: Arial;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+       
+       nav {
+    background: #222;
+    padding: 12px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.search-bar {
+    padding: 7px 12px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    margin-right: 10px;
+}
+
+.logout-btn {
+    padding: 7px 15px;
+    border: none;
+    background: red;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.logout-btn:hover {
+    background: darkred;
+}
+       
+        .navbar {
+            background: #111;
+            padding: 15px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+        }
+
+        .navbar a {
+            color: white;
+            margin: 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .navbar a:hover {
+            color: orange;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background: #222;
+            color: white;
+        }
+
+        .offer {
+            background: orange;
+            text-align: center;
+            padding: 10px;
+            font-weight: bold;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .category {
+            background: white;
+            margin: 20px 0;
+            padding: 15px;
+            border-radius: 8px;
+        }
+
+        .product {
+            border: 1px solid #ddd;
+            margin: 10px;
+            padding: 10px;
+            display: inline-block;
+            width: 30%;
+            background: #fafafa;
+            border-radius: 6px;
+            text-align: center;
+        }
+
+        .product img {
+            width: 300px;
+            height: 200px;
+        }
+
+        footer {
+            background: #111;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>TechZone Gadget Store</h1>
+    <p>Latest Gadgets at Best Prices</p>
+</header>
+
+<div class="offer">
+    🔥 Special Offer: 10% OFF on Smartphones | New Arrivals Available!
+</div>
+
+<!-- Navigation -->
+<div class="navbar">
+    <a href="#smartphones">Smartphones</a>
+    <a href="#laptops">Laptops</a>
+    <a href="#audio">Audio</a>
+    <a href="#watch">Smartwatches</a>
+    <a href="#gaming">Gaming</a>
+</div>
+
+<div class="container">
+
+<!-- Smartphones -->
+<div class="category" id="smartphones">
+<h2>📱 Smartphones</h2>
+
+<div class="product">
+<img src=https://images.unsplash.com/photo-1664478546384-d57ffe74a78c?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D>
+<p><b>iPhone 14</b></p>
+<p>High-performance smartphone</p>
+<p>$900 | Available</p>
+</div>
+
+<div class="product">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCVISBKRtrE-vre82xU1Qf3GP7xIAKKCYbNg&s">
+<p><b>Samsung S23</b></p>
+<p>Premium Android device</p>
+<p>$850 | Available</p>
+</div>
+
+<div class="product">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9zNM3PfeeRB67V9vEbZHmScvIqrsTA4pzkA&s">
+<p><b>Redmi Note 12</b></p>
+<p>Budget friendly phone</p>
+<p>$300 | In Stock</p>
+</div>
+
+</div>
+
+<!-- Laptops -->
+<div class="category" id="laptops">
+<h2>💻 Laptops</h2>
+
+<div class="product">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSySUKdBKy4sk74OfQJ5n3HjBEaisiSWmt32w&s">
+<p><b>Dell Inspiron</b></p>
+<p>Reliable laptop</p>
+<p>$700 | Available</p>
+</div>
+
+<div class="product">
+<img src="https://m.media-amazon.com/images/I/41MxaVDP+HL._AC_UF1000,1000_QL80_.jpg">
+<p><b>HP Pavilion</b></p>
+<p>High performance laptop</p>
+<p>$800 | Available</p>
+</div>
+
+<div class="product">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRxwU2fcKm1kO-9y4DyRBwepyUiCAG2dvNgA&s">
+<p><b>MacBook Air</b></p>
+<p>Lightweight laptop</p>
+<p>$1200 | Limited</p>
+</div>
+
+</div>
+
+<!-- Audio -->
+<div class="category" id="audio">
+<h2>🎧 Audio & Headphones</h2>
+
+<div class="product">
+<img src="https://imagedelivery.net/7D3NQGy_afPWwbfcO5Acjw/celltronics.lk/2023/06/JBL-Tune-720BT-Wireless-Over-Ear-Headphones-1.jpg/w=800,h=800,fit=crop">
+<p><b>JBL Headphones</b></p>
+<p>Clear sound quality</p>
+<p>$150 | Available</p>
+</div>
+
+<div class="product">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4o9teT8vwvBBKG3fmM0PM_h2vTbsBjRBXPg&s">
+<p><b>AirPods Pro</b></p>
+<p>Wireless earbuds</p>
+<p>$250 | Available</p>
+</div>
+
+<div class="product">
+<img src="https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/Inzone-H6-Air-launched.jpg">
+<p><b>Sony Headset</b></p>
+<p>Noise cancelling</p>
+<p>$300 | Available</p>
+</div>
+
+</div>
+
+<!-- Smartwatches -->
+<div class="category" id="watch">
+<h2>⌚ Smartwatches</h2>
+
+<div class="product">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5UxLRMCD6vaw-a8Xqdkg4D0AN0yMfTc6FjQ&s">
+<p><b>Apple Watch</b></p>
+<p>Fitness tracking</p>
+<p>$400 | Available</p>
+</div>
+
+<div class="product">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoY7aY4ZqaqDm0UqLXmdXgKGf2ioc8um__OQ&s">
+<p><b>Samsung Watch</b></p>
+<p>Smart wearable</p>
+<p>$350 | Available</p>
+</div>
+
+<div class="product">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQX4rHUeFSCrbCU4MeApklp3vczEYVote5TKA&s">
+<p><b>Fitbit</b></p>
+<p>Track daily activity</p>
+<p>$200 | In Stock</p>
+</div>
+
+</div>
+
+<!-- Gaming -->
+<div class="category" id="gaming">
+<h2>🎮 Gaming Accessories</h2>
+
+<div class="product">
+<img src="https://disrupt.lk/cdn/shop/files/Untitled111.png?v=1773562035&width=1721">
+<p><b>Gaming Mouse</b></p>
+<p>High precision</p>
+<p>$50 | Available</p>
+</div>
+
+<div class="product">
+<img src="https://media.istockphoto.com/id/1191175480/photo/esport-rgb-mouse-and-keyboard.jpg?s=612x612&w=0&k=20&c=UaTWE43N5csSb2MGwV0kyV5VGTN9dI5MuFwcVkTFopI=">
+<p><b>Keyboard</b></p>
+<p>RGB mechanical keyboard</p>
+<p>$120 | Available</p>
+</div>
+
+<div class="product">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP6QFyiPXkPS0BS2XXv19XhmFx87Ve6mlDPg&s">
+<p><b>Gaming Headset</b></p>
+<p>Surround sound</p>
+<p>$80 | Available</p>
+</div>
+
+</div>
+
+</div>
+
+<footer>
+<p>© 2026 TechZone Gadget Store</p>
+<p>Contact - 0411234567</p>
+<p>Gmail - techzonegadget@gmail.com</p>  
+</footer>
+
+</body>
+</html>
